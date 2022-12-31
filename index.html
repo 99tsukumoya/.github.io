@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    var pic = [];
+    pic[0] = "https://cdn.discordapp.com/attachments/872397360343449683/1058818137308540928/1.png";
+    pic[1] = "https://cdn.discordapp.com/attachments/872397360343449683/1058816389579800637/1.png";
+    pic[2] = "https://cdn.discordapp.com/attachments/872397360343449683/1058816389579800637/1.png";
+    pic[3] = "https://cdn.discordapp.com/attachments/872397360343449683/1058818137308540928/1.png";
+
+    var randomBgIndex = Math.round( Math.random() * 3 );
+    document.write("<img src=" + pic[randomBgIndex] + " width='400'>")
+</script>
+</body>
+</html>
